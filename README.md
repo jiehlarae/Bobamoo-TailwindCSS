@@ -1,4 +1,4 @@
-# Personal Project - Boba Bliss Website
+# Personal Project - Bobamoo Website
 
 This is a personal project aimed at refining my skills in web development, specifically focusing on the utilization of Tailwind CSS. The goal of this project is to create a responsive and visually appealing landing page for a fictional brand called "Bobamoo"
 
@@ -22,8 +22,8 @@ The focus of this project is to practice and showcase proficiency in using Tailw
 
 ### Links
 
-- Solution URL: [https://github.com/your-username/boba-bliss-website.git]
-- Live Site URL: [https://your-username.github.io/boba-bliss-website/]
+- Solution URL: [https://github.com/jiehlarae/Bobamoo.git]
+- Live Site URL: [https://jiehlarae.github.io/Bobamoo/]
 
 ## My process
 
