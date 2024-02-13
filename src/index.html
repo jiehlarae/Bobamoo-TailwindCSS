@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="/src/images/logo.png" type="image/icon type">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <header class="sticky top-0 z-10">
+        <nav class="p-4 flex justify-between items-center text-main bg-gray-100">
+            <div class="flex items-center">
+                <img src="./images/logo.png" alt="">
+                <a href="#" class="text-2xl" id="logo">BOBAMOO</a>
+            </div>
+            <ul class="flex">
+                <li class="px-2 hover:bg-main hover:text-white hidden md:block"><a href="./index.html">HOME</a></li>
+                <li class="px-2 hover:bg-main hover:text-white hidden md:block"><a href="#about">ABOUT</a></li>
+                <li class="px-2 hover:bg-main hover:text-white hidden md:block"><a href="#gallery">GALLERY</a></li>
+                <li class="px-2 hover:bg-main hover:text-white hidden md:block"><a href="#order">ORDER ONLINE</a></li>
+                <li class="px-2 hover:bg-main hover:text-white hidden md:block"><a href="#contact">CONTACT</a></li>
+                <div class="custom-color" id="hamburger-icon">
+                    <img src="./images/menu.png" alt="" class="block md:hidden">
+                </div>
+                <div id="dropdown-menu" class="hidden lg:hidden bg-white mt-2 p-2 absolute right-12 top-16 shadow-lg">
+                    <a href="index.html" class="block py-2 px-4 text-main hover:bg-main hover:text-white">HOME</a>
+                    <a href="#about" class="block py-2 px-4 text-main hover:bg-main hover:text-white">ABOUT</a>
+                    <a href="#gallery" class="block py-2 px-4 text-main hover:bg-main hover:text-white">GALLERY</a>
+                    <a href="#order" class="block py-2 px-4 text-main hover:bg-main hover:text-white">ORDER ONLINE</a>
+                    <a href="#contact" class="block py-2 px-4 text-main hover:bg-main hover:text-white">CONTACT</a>
+                </div>
+            </ul>
+            
+           
+        </nav>
+    </header>
+    <main>
+        <section class="h-96 flex flex-col justify-center text-white text-center bg-bg bg-center">
+            <h1 class="md:text-7xl font-bold text-5xl">BOBAMOO</h1>
+        </section>
+        <section class="bg-main text-white py-10 px-10 md:px-20 scroll-mt-24" id="about">
+            <h2 class="pb-4 text-center text-4xl font-semibold">About Us</h2>
+            <h3 class="text-2xl">The Boba Experience</h3>
+            <p class="py-4">
+                Every moment holds its unique significance. When you enter Bobamoo, it's not merely about acquiring a cup of boba tea; it's a holistic experience. Our skilled Bobaristas ensure that each visit is marked by a warm smile, precise quality, and unwavering consistency in every drink they craft. Enjoying a cup of boba tea at Bobamoo is akin to immersing yourself in the refined artistry of boba tea, a blend of visual and experiential delight.
+            </p>
+            <button class="p-2 bg-white text-main font-semibold">Read more</button>
+        </section>
+        <section id="gallery" class="scroll-mt-24">
+            <h2 class="p-4 text-center text-main text-4xl font-semibold">Gallery</h2>
+            <div class="flex flex-col md:flex-row h-50 px-0 md:px-10 lg:px-20 pb-16">
+                <div class="flex-1">
+                    <img src="./images/img-1.jpg" alt="milk tea" class="h-full">
+                </div>
+                <div class="flex-1">
+                    <img src="./images/img-2.jpg" alt="milk tea" class="h-full">
+                </div>
+                <div class="flex-1">
+                    <img src="./images/img-3.jpg" alt="milk tea" class="h-full">
+                </div>
+            </div>
+        </section>
+        <section class="bg-main text-center text-white py-10 px-20 scroll-mt-24" id="order">
+            <h2 class="pb-4 md:text-7xl font-bold text-5xl">DRINK IT ALL IN</h2>
+            <p class="pb-8">
+                Premium Quality Tea At Your Fingertips.
+            </p>
+            <button class="p-2 bg-white text-main font-semibold cursor-pointer">Order Now</button>
+        </section>
+        <section class="scroll-mt-24" id="contact">
+            <h2 class="p-4 text-center text-main text-4xl font-semibold">Contact</h2>
+            <div class="flex flex-col md:flex-row items-center h-50 px-10 md:px-20 pb-16">
+                <div class="relative h-96 xl:w-8/12 md:w-6/12 w-full">
+                    <iframe class="absolute top-0 left-0 w-full h-full"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12080.73732861526!2d-74.0059418!3d40.7127847!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM40zMDA2JzEwLjAiTiA3NMKwMjUnMzcuNyJX!5e0!3m2!1sen!2sus!4v1648482801994!5m2!1sen!2sus"
+                        frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+                    </iframe>
+                </div>
+                <div class="pl-0 md:pl-10 text-main xl::w-3/12 md:w-5/12 w-full">
+                    <div class="pb-8">
+                        <h3 class="text-2xl pb-2 font-semibold pt-10 lg:pt-0">Connect with us</h3>
+                        <p class="pb-4">We’d love to hear from you.</p>
+                        <button class="p-2 text-white bg-main font-semibold">Call Now</button>
+                    </div>
+                    <div class="pb-8">
+                        <h3 class="text-2xl pb-2 font-semibold">Locations</h3>
+                        <p class="pb-4">Find our nearest location.</p>
+                        <button class="p-2 text-white bg-main font-semibold">Get Directions</button>
+                    </div>
+                </div>
+                <div class="xl:w-1/12 md:w-1/12 flex justify-end">
+                    <ul class="custom-color hidden md:block">
+                        <li class="my-2 transition ease-in-out hover:-translate-y-1 hover:scale-100"><a href="#"><img src="./images/facebook.png" alt="facebook icon"></a></li>
+                        <li class="my-2 transition ease-in-out hover:-translate-y-1 hover:scale-100"><a href="#"><img src="./images/instagram.png" alt="instagram icon"></a></li>
+                        <li class="my-2 transition ease-in-out hover:-translate-y-1 hover:scale-100"><a href="#"><img src="./images/twitter.png" alt="twitter icon"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-main text-white py-10 px-10 lg:px-20 flex flex-col md:flex-row justify-between gap-10">
+        <div class="">
+            <h2 class="text-2xl pb-6">Business Hours</h2>
+            <div class="flex">
+                <div class="pr-10">
+                    <p>Mon:</p>
+                    <p>Tue:</p>
+                    <p>Wed:</p>
+                    <p>Thu:</p>
+                    <p>Fri</p>
+                    <p>Sat</p>
+                    <p>Sun</p>
+                </div>
+                <div>
+                    <p>10:00 AM – 9:00 PM</p>
+                    <p>10:00 AM – 9:00 PM</p>
+                    <p>10:00 AM – 9:00 PM</p>
+                    <p>10:00 AM – 9:00 PM</p>
+                    <p>10:00 AM – 12:00 AM</p>
+                    <p>CLOSED</p>
+                    <p>CLOSED</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2 class="text-2xl pb-6">Quick Links</h2>
+            <ul class="cursor-pointer">
+                <li class="hover:underline"><a href="#"></a>Home</li>
+                <li class="hover:underline"><a href="#"></a>About</li>
+                <li class="hover:underline"><a href="#"></a>Gallery</li>
+                <li class="hover:underline"><a href="#"></a>Order Online</li>
+                <li class="hover:underline"><a href="#"></a>Contact</li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="text-2xl pb-6">See What's Brewing!</h2>
+            <ul class="custom-white flex justify-start md:justify-center">
+                <li class="mx-2 transition ease-in-out hover:-translate-y-1 hover:scale-100"><a href="#"><img src="./images/facebook.png" alt="facebook icon"></a></li>
+                <li class="mx-2 transition ease-in-out hover:-translate-y-1 hover:scale-100"><a href="#"><img src="./images/instagram.png" alt="instagram icon"></a></li>
+                <li class="mx-2 transition ease-in-out hover:-translate-y-1 hover:scale-100"><a href="#"><img src="./images/twitter.png" alt="twitter icon"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/84304e656f.js" crossorigin="anonymous"></script>
+    <script>
+        // JavaScript to toggle the dropdown menu visibility
+        const hamburgerIcon = document.getElementById('hamburger-icon');
+        const dropdownMenu = document.getElementById('dropdown-menu');
+    
+        hamburgerIcon.addEventListener('click', () => {
+            dropdownMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
