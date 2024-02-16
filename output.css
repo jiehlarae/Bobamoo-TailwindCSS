@@ -757,7 +757,7 @@ video {
 }
 
 .bg-bg {
-  background-image: url('../src/images/bg.png');
+  background-image: url('./images/bg.png');
 }
 
 .bg-center {
