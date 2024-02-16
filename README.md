@@ -22,8 +22,8 @@ The focus of this project is to practice and showcase proficiency in using Tailw
 
 ### Links
 
-- Solution URL: [https://github.com/jiehlarae/Bobamoo.git]
-- Live Site URL: [https://jiehlarae.github.io/Bobamoo/]
+- Solution URL: [https://github.com/jiehlarae/Bobamoo-TailwindCSS.git]
+- Live Site URL: [https://jiehlarae.github.io/Bobamoo-TailwindCSS/]
 
 ## My process
 
